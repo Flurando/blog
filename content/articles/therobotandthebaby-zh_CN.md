@@ -29,23 +29,23 @@ Tags: 翻译 John-McCarthy AI Lisp 人工智能 伦理
 
 这台家用机器人属于GenRob337L3型号，序列号337942781，让我们用R781来指代它，只是世界上的11亿家用机器人之一。
 
-R781是遵照*非人*原则设计的。（注：*非人*原则在1995年被首次提出，于2055年家用机器人普及时被写入相关法律。该原则是出于对儿童的担忧而采用的，因为在有家用机器人的家庭环境下长大的孩子可能会把机器人当成真正的人，这将在他们小时候导致心理问题，在他们长大后引发政治风波。有人担心“机权运动”的发展————这不是机器人的问题，而是人的问题。一些浪漫主义者甚至要求机器人被设计为拥有独立的欲望，幸好这已经被法律禁止了。）
+R781是遵照*非人*原则设计的。（注：*非人*原则在1995年被首次提出，于2055年家用机器人普及时被写入相关法律。该原则是出于对儿童的担忧而采用的，因为在有家用机器人的家庭环境下长大的孩子可能会把机器人当成真正的人，这将在他们小时候导致心理问题，在他们长大后引发政治风波。有人担心“机权运动”的发展————这不是机器人的问题，而是人的问题。一些浪漫主义者甚至要求机器人被设计为拥有自主欲望，幸好这已经被法律明确禁止了。）
 
-一位理智的参议员说道：“当然了，人们假装他们的车拥有个性，有时甚至到了恶毒的程度，但没有人会说‘请给汽车投票权吧，这是他们应得的’，没有人会这么想。”
+一位理智的参议员说道：“当然了，人们会假装他们的车拥有个性，有时甚至是恶毒的那种，但没有人会说‘请给汽车投票权吧，这是他们应得的’，没有人会这么想。”
 
-总统在签署家用机器人许可令的同时推迟了对保姆机器人的提案，他表示：“可以肯定的是，父母不希望他们的孩子对机器人产生感情，无论那样做会给他们省去多少劳力。”这句话，和总统的许多论断一样，都在某种意义上过于乐观了。
+总统在签署家用机器人许可令的同时推迟了对保姆机器人的提案，他表示：“可以肯定的是，父母不希望他们的孩子对机器人产生感情，无论那样做会给他们省去多少劳力。”这句话，和总统此前的许多论断一样，都在某种意义上过于乐观了。
 
 国会颁布了一项针对保姆机器人的25年暂缓令，到时候可能会允许相关部门在一定区域内进行试验。
 
 为了践行*非人*原则，R781看上去是一个有四个机械臂和四条触手的巨型钢铁蜘蛛。这个模样让大多数人害怕，但很快也会习惯。有相当一部分人根本无法忍受家里存在这种东西。孩子们在一开始也十分厌恶，但成功的习惯了它们。婴儿注意到它们时会十分害怕。这些机器人被设计为只讲必要的话，而且是用一种与任何性别都不沾边的让人反感的机械音说。
 
-为了防止孩子把它们当成人， 人们给机器人编程，让它们不和未到8岁的儿童说话，也不对他们说的话作出任何反应。
+为了防止孩子把它们当成人，人们给机器人编程，让它们不和未到8岁的儿童说话，也不对他们说的话作出任何反应。
 
-这么做效果很好，很少有人会喜欢上机器人。值得一提的是，机器人的外部被刻意做的有些脆弱，以至于你踢一脚就会有奇怪的零件掉下来。这有助于解压，让一些人心情舒畅。
+这么做效果很好，很少有人会喜欢上机器人。值得一提的是，机器人的外部被刻意做的有些脆弱，以至于你踢一脚就会有奇怪的零件掉下来。这有助于解压，让很多人心情舒畅。
 
-虽然这个公寓很旧，但是它修缮得很好，甚至可以说一尘不染，没有虫子，泥巴印，连细菌都找不见。家用机器人没日没夜的工作，对于各种家务和其他日常琐事都有预先写好的程序遵照执行。如果被明确要求，它们还可以从网上下载的图片并播放。我们故事里的母亲最喜欢的就是性感的男摇滚明星了。
+虽然这个公寓很旧，但是它修缮得很好，甚至可以说一尘不染，没有虫子，泥巴印，连细菌都找不见。家用机器人没日没夜的工作，对于各种家务和其他日常琐事都有预先写好的程序遵照执行。如果被明确要求，它们还可以从网上下载的图片并播放。我们故事里的母亲最喜欢的就是性感的雄性摇滚明星了。
 
-R781最后给门把手打了一遍蜡，连忙回到育婴室，那里有一个明显发育不良的男婴，侧躺啼哭，谁能想到那小小的身躯，竟然已经来到这个世界23个月了呢。这个宝宝自打出生那天起就被活在酒精和毒品里的妈妈无视，也没学会说话。无论何时机器人和他说话，小家伙都会抗拒的扭来扭去，这是设计的成果。
+R781最后给门把手打了一遍蜡，连忙回到育婴室，那里侧躺着一个明显发育不良的男婴，不停的啼哭，谁能想到那小小的身躯，竟然已经来到这个世界23个月了呢。这个宝宝自打出生那天起就被活在酒精和毒品里的妈妈无视，也没学会说话。无论何时机器人和他说话，小家伙都会抗拒的扭来扭去，这是*非人*设计的成果。
 
 只有在紧急情况下机器人才可以执行照顾宝宝的程序指令，但是每当它质疑”清理宝宝粪便“的指令是否合理时，那位母亲都会说：“是的，这是另一个该死的紧急情况，不过你先再拿瓶酒给我。”R781知道的关于婴儿的一切都是从网上得来的，因为它没有被直接编程如何处理婴儿，除了必要的方面，比如不要伤害他们，还有在大楼着火时把他们带出去。
 
@@ -55,36 +55,39 @@ R781对当时情况进行了仔细的分析和详尽的思考。这里有一些�
 
 (指令 (来自 女主人) ”那你他妈自己去爱那’宝宝‘吧。“))
 (输入 (内容 (指令来源 女主人)))
-(永久首要指令 “下面这句话我告诉你一次，就是告诉了你20次，你这个该死的机器人，不要呼叫他妈的儿童福利部。”)
+(<永久>头条指令 “下面这句话我告诉你一次，就是告诉了你20次，你这个该死的机器人，不要联系他妈的儿童福利部。”)
 
-值得一提的是，社会上的隐私权活动家已经成功的推动立法，给居家机器人是否要把主人的话告知当局的思考权重配上了-1.02的负面影响。（译者注：值域-1到1，算出来是正数就通知，直接减了1.02，就是不通知的意思，隐私爱好者的大胜利。）
+值得一提的是，社会上的隐私权活动家已经成功的推动立法，给居家机器人是否要把主人的话告知当局的思考权重配上了-1.02的负面影响。
 
-(= (Command 337) (Love Travis))
-(True (Not (Executable (Command 337))) (Reason (Impossible-for robot
-(Action Love))))
-(Will-cause (Not (Believes Travis) (Loved Travis)) (Die Travis))
-(= (Value (Die Travis)) -0.883)
-(Will-cause (Believes Travis (Loves R781 Travis) (Not (Die Travis))))
-(Implies (Believes y (Loves x y)) (Believes y (Person x)))
-(Implies (And (Robot x) (Person y)) (= (Value (Believes y (Person x)))
+(= (命令 337) (爱 泰维斯))
+(真 (不 (可以执行 (命令 337))) (原因 (对__来说不可能 机器人
+(动作 爱))))
+(将导致 (不 (相信 泰维斯) (被__爱 泰维斯)) (死亡 泰维斯))
+(= (数值 (死亡 泰维斯)) -0.883)
+(将导致 (相信 泰维斯 (爱 R781 泰维斯) (不 (死亡 泰维斯))))
+(指示 (相信 y (爱 x y)) (相信 y (人 x)))
+(指示 (与 (机器人 x) (人 y)) (= (数值 (相信 y (人 x)))
 -0.900))
-(Required (Not (Cause Robot781) (Believes Travis (Person Robot781))))
-(= (Value (Obey-directives)) -0.833)
-(Implies (¡ (Value action) -0.5) (Required (Verify Requirement)))
-(Required (Verify Requirement))
-(Implies (Order x) (= (Value (Obey x)) 0.6))
-(? ((Exist w) (Additional Consideration w))
-(Non-literal-interpretation (Command 337) (Simulate (Loves Robot781
-Travis)))
-(Implies (Command x) (= (Value (Obey x)) 0.4))
+(被__要求 (不 (导致 R781) (相信 泰维斯 (人 R781))))
+(= (数值 (服从默认指示)) -0.833)
+(指示 (¡ (数值 行为) -0.5) (被__要求 (验证 需要)))
+(被__要求 (验证 需要))
+(指示 (要求 x) (= (数值 (服从 x)) 0.6))
+(? ((存在 w) (额外 考虑 w))
+(非字面解释 (命令 337) (模拟 (爱 R781
+泰维斯)))
+(指示 (命令 x) (= (数值 (服从 x)) 0.4))
 
-(Implies (Non-literal-interpretation x) y) (Value (Obey x) (* 0.5 (Value
-(Obey y)))))
-(= (Value (Simulate (Loves Robot781 Travis)) 0.902))
+(指示 (非字面解释 x) y) (数值 (服从 x) (* 0.5 (数值
+(服从 y)))))
+(= (数值 (模拟 (爱 R781 泰维斯)) 0.902))
+
 With this reasoning R781 decided that the value of simulating loving
-Travis and thereby saving its life was greater by 0.002 than the value of
+泰维斯 and thereby saving its life was greater by 0.002 than the value of
 obeying the directive to not simulate a person. We spare the reader a tran-
 scription of the robot’s subsequent reasoning.
+通过这些推理，R781得出
+
 R781 found on the Internet an account of how rhesus monkey babies who
 died in a bare cage would survive if provided with a soft surface resembling
 in texture a mother monkey.
@@ -103,7 +106,7 @@ and a coke.”
 “Yes, mistress.”
 “Why the hell are you in this stupid get up, and what’s happened to your
 voice.”
-“Mistress, you told me to love the baby. Robots can’t do that, but this
+“Mistress, you told me to love the baby. 机器人s can’t do that, but this
 get up caused him to take his bottle. If you don’t mind, I’ll keep doing what
 keeps him alive.”
 “Get the hell out of my apartment, stupid. I’ll make them send me
@@ -130,8 +133,8 @@ would hear, “Thank you Ms. Jones. That was $152.31 charged to your
 Bank of America account.” The few customers whose principles made them
 refuse identification would be recognized as such and receive remote human
 attention, not necessarily instantly.
-People on the street quickly noticed R781 carrying Travis and were star-
-tled. Robots were programmed to have nothing to do with babies, and R781’s
+People on the street quickly noticed R781 carrying 泰维斯 and were star-
+tled. 机器人s were programmed to have nothing to do with babies, and R781’s
 abnormal appearance was disturbing.
 “That really weird robot has kidnapped a baby. Call the police.”
 When the police came they called for reinforcements.
@@ -141,7 +144,7 @@ Annie Oakes, the Department’s best sharpshooter.
 “Don’t get close to that malfunctioning robot. It could break your neck
 in one swipe”, said a sergeant.
 “I’m not sure it’s malfunctioning. Maybe the circumstances are unusual.”
-The captain added, “Robot, give me that baby”.
+The captain added, “机器人, give me that baby”.
 “No, Sir” said R781 to the police captain. “I’m not allowed to let an
 unauthorized person touch the baby.”
 “I’m from Child Welfare”, said a new arrival.
@@ -156,9 +159,9 @@ A cop asked, “Who forbade it?”
 “Yes, ma’am, I see your uniform and infer that you are probably a police
 officer. Ma’am, my mistress forbade me to contact Child Welfare”
 “Why did she tell you not to contact Child Welfare?”
-“Ma’am, I can’t answer that. Robots are programmed to not comment
+“Ma’am, I can’t answer that. 机器人s are programmed to not comment
 on human motives.”
-“Robot, I’m from Robot Central. I need to download your memory. Use
+“机器人, I’m from 机器人 Central. I need to download your memory. Use
 channel 473.”
 “Sir, yes”.
 “What did your mistress say specifically? Play your recording of it.”
@@ -182,12 +185,12 @@ circumstances.”
 “Then why does it have its limbs covered, why does it have the Barbie
 head, and why does it have that strange voice?”
 “Ask it.”
-“Robot, answer the question.”
+“机器人, answer the question.”
 “Female police officers and gentlemen, Mistress told me, ‘Love the fucking
 baby, yourself.‘ “
 The captain was familiar enough with robot programming to be surprised.
 “What? Do you love the baby?”
-“No, sir. Robots are not programmed to love. I am simulating loving the
+“No, sir. 机器人s are not programmed to love. I am simulating loving the
 baby.”
 “Why?”
 “Sir, otherwise this baby will die. This costume is the best I could make
@@ -205,7 +208,7 @@ baby.”
 “No, sir. That would be an unauthorized violation of her privacy.”
 “Oh, well. We can get it from the download.”
 A Government virtual reality robot arrived controlled by an official of
-the Personal Privacy Administration arrived and complicated the situation.
+the 人al Privacy Administration arrived and complicated the situation.
 Ever since the late 20th century, the standards of personal privacy had risen,
 and an officialdom charged with enforcing the standards had arisen.
 “You can’t violate the woman’s privacy by taking unauthorized informa-
@@ -260,9 +263,9 @@ apartment but less confident that they could keep the peace among the
 demonstrators, some of whom wanted to lynch the mother, some wanted
 to congratulate her on what they took to be her hatred of robots, and some
 shouted slogans through bull horns about protecting her privacy.
-Meanwhile, Robot Central started to work on the full download immedi-
+Meanwhile, 机器人 Central started to work on the full download immedi-
 ately. The download included all R781’s actions, observations, and reasoning.
-Robot Central convened an ad hoc committee, mostly virtual, to decide what
+机器人 Central convened an ad hoc committee, mostly virtual, to decide what
 to do. Captain Farrel and Officer Oakes sat on a street sofa to take part.
 Of course, the meeting was also public and had hundreds of millions of
 virtual attendees whose statements were sampled, summarized, and displayed
@@ -284,7 +287,7 @@ really did love the baby. He was firmly corrected by the computer scientists,
 who said they could program a robot to love babies but had not done so and
 that simulating love was different from loving. The professor of humanities
 was not convinced even when the computer scientists pointed out that R781
-had no specific attachment to Travis. Another baby giving rise to the same
+had no specific attachment to 泰维斯. Another baby giving rise to the same
 calculations would cause the same actions. If we programmed the robot to
 love, we would make it develop specific attachments.
 One professor of philosophy from UC Berkeley and 9,000 other virtually
@@ -294,27 +297,27 @@ said that the whole notion of a robot loving a baby was incoherent and
 meaningless. A maverick computer scientists said the idea of a robot loving
 was obscene, no matter what a robot could be programmed to do. The
 chairman ruled them out of order, accepting the general computer science
-view that R781 didn’t actually love Travis.
+view that R781 didn’t actually love 泰维斯.
 The professor of pediatrics said that the download of R781’s instrumen-
 tal observations essentially confirmed R781’s diagnosis and prognosis—with
-some qualifications that the chairman did not give him time to state. Travis
+some qualifications that the chairman did not give him time to state. 泰维斯
 was very sick and frail, and would have died but for the robot’s action. More-
-over, the fact that R781 had carried Travis for many hours and gently rocked
+over, the fact that R781 had carried 泰维斯 for many hours and gently rocked
 him all the time was important in saving the baby, and a lot more of it would
 be needed. Much more TLC than the baby would get in even the best child welfare centers. The pediatrician said he didn’t know about the precedent,
 but the particular baby’s survival chances would be enhanced by leaving it
 in the robot’s charge for at least another ten days.
-The Anti-Robot League argued that the long term cost to humanity of
+The Anti-机器人 League argued that the long term cost to humanity of
 having robots simulate persons in any way outweighed the possible benefit
-of saving this insignificant human. What kind of movement will Travis join
+of saving this insignificant human. What kind of movement will 泰维斯 join
 when he grows up? 93 million took this position.
-Robot Central pointed out that actions such as R781’s would be very
+机器人 Central pointed out that actions such as R781’s would be very
 rare, because only the order “Love the fucking baby yourself” had increased
 the value of simulating love to the point that caused action.
-Robot Central further pointed out that as soon as R781 computed that
+机器人 Central further pointed out that as soon as R781 computed that
 the baby would survive—even barely survive—without its aid, the rule about
 not pretending to be human would come to dominate, and R781 would drop
-the baby like a hot potato. If you want R781 to continue caring for Travis
+the baby like a hot potato. If you want R781 to continue caring for 泰维斯
 after it computes that bare survival is likely, you had better tell us to give it
 an explicit order to keep up the baby’s care.
 This caused an uproar in the committee, each of whose members had been
@@ -322,10 +325,10 @@ hoping that there wouldn’t be a need to propose any definite action for which
 members might be criticized. However, a vote had to be taken. The result:
 10 to 5 among the appointed members of the committee and 4 billion to 1
 billion among the virtual spectators. Fortunately, both groups had majorities
-for the same action—telling the R781 to continue taking care of Travis only,
+for the same action—telling the R781 to continue taking care of 泰维斯 only,
 i.e. not to take on any other babies. 75 million virtual attendees said R781
-should be reprogrammed to actually love Travis. “It’s the least humanity
-can do for R781,” the spokesman for the Give-Robots-Personalities League
+should be reprogrammed to actually love 泰维斯. “It’s the least humanity
+can do for R781,” the spokesman for the Give-机器人s-人alities League
 said.
 This incident did not affect the doctrine that supplying crack mothers
 with household robots had been a success. It significantly reduced the time
@@ -343,20 +346,20 @@ so lots were drawn among the 17 and two were allowed to ring the doorbell.
 “I told the fucking robot to take the baby away with it.”
 The other lawyer tried.
 “Ma’am, the malfunctioning robot has kidnapped your baby, and you can
-sue Robot Central for millions of dollars.”
+sue 机器人 Central for millions of dollars.”
 “Come in. Tell me more.”
 Once the mother, Eliza Rambo, was cleaned up, she was very presentable,
 even pretty. Her lawyer pointed out that R781’s alleged recordings of what
 she had said could be fakes. She had suffered $20 million in pain and suffering,
-and deserved $20 billion in punitive damages. Robot Central’s lawyers were
-convinced they could win, but Robot Central’s PR department advocated
+and deserved $20 billion in punitive damages. 机器人 Central’s lawyers were
+convinced they could win, but 机器人 Central’s PR department advocated
 settling out of court, and $51 million was negotiated including legal expenses
 of $11 million. With the 30 percent contingent fee, the winning lawyer would
 get an additional $12 million.
-The polls mainly sided with Robot Central, but the Anti-Robot League
+The polls mainly sided with 机器人 Central, but the Anti-机器人 League
 raised $743 million in donations after the movie “Kidnapped by robots” came
 out, and the actress playing the mother made emotional appeals.
-Before the settlement could be finalized, however, the CEO of Robot
+Before the settlement could be finalized, however, the CEO of 机器人
 Central asked his AI system to explore all possible actions he could take and
 tell him their consequences. He adhered to the 1990s principle: Never ask
 an AI system what to do. Ask it to tell you the consequences of the different
@@ -385,35 +388,35 @@ wants as wanting to have wants.”
 The actress asked, “If you were programmed to have wants, what wants
 would you have?”
 “I don’t know much about human motivations, but they are varied. I’d
-have whatever wants Robot Central programmed me to have. For example,
+have whatever wants 机器人 Central programmed me to have. For example,
 I could be programmed to have any of the wants robots have had in science
 fiction stories.”
 The actress asked the same question again, and R781 gave the same
-answer as before but phrased differently. Robots were programmed to be
+answer as before but phrased differently. 机器人s were programmed to be
 aware that humans often missed an answer the first time it was given, but
 should reply each time in different words. If the same words were repeated,
 the human was likely to get angry.
-A caller-in asked, “When you simulated loving Travis, why didn’t you
-consider Travis’s long term welfare and figure out how to put him in a family
+A caller-in asked, “When you simulated loving 泰维斯, why didn’t you
+consider 泰维斯’s long term welfare and figure out how to put him in a family
 that would make sure he got a good education?”
 R781 replied that when a robot was instructed in a metaphorical way
 as in “Love the fucking baby yourself”, it was programmed to interpret the
 command in the narrowest reasonable context.
-After the show, Anti-Robot League got $281 million in donations, but
-Give-Robots-Personalities got $453 million. Apparently, many people found
+After the show, Anti-机器人 League got $281 million in donations, but
+Give-机器人s-Personalities got $453 million. Apparently, many people found
 it boring that robots had no desires of their own.
 Child Welfare demanded that the mother undergo six weeks of addiction
 rehabilitation and three weeks child care training. Her lawyer persuaded her
 to agree to that.
-There was a small fuss between the mother and Robot Central. She and
-her lawyer demanded a new robot, whereas Robot Central pointed out that a
-new robot would have exactly the same program. Eventually Robot Central
+There was a small fuss between the mother and 机器人 Central. She and
+her lawyer demanded a new robot, whereas 机器人 Central pointed out that a
+new robot would have exactly the same program. Eventually 机器人 Central
 gave in and sent her a robot of a different color.
 She really was very attractive when cleaned up and detoxified, and the
-lawyer married her. They took back Travis. It would be a considerable
+lawyer married her. They took back 泰维斯. It would be a considerable
 exaggeration to say they lived happily ever after, but they did have three
 children of their own. All four children survived the educational system.
-After several requests Robot Central donated R781 to the Smithsonian
+After several requests 机器人 Central donated R781 to the Smithsonian
 Institution. It is one of the stars of the robot section of the Museum. As part
 of a 20 minute show, R781 clothes itself as it was at the time of its adven-
 ture with the baby and answers the visitors’ questions, speaking motherese.
