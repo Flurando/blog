@@ -82,25 +82,19 @@ R781对当时情况进行了仔细的分析和详尽的思考。这里有一些�
 (服从 y)))))
 (= (数值 (模拟 (爱 R781 泰维斯)) 0.902))
 
-With this reasoning R781 decided that the value of simulating loving
-泰维斯 and thereby saving its life was greater by 0.002 than the value of
-obeying the directive to not simulate a person. We spare the reader a tran-
-scription of the robot’s subsequent reasoning.
-通过这些推理，R781得出
+通过这些推理，R781得出通过模拟去爱泰维斯来救小家伙的命比遵守不要模仿人类的要求要高0.002。我们把理解上述推理过程的任务留给读者，便不再赘述了。
 
-R781 found on the Internet an account of how rhesus monkey babies who
-died in a bare cage would survive if provided with a soft surface resembling
-in texture a mother monkey.
-R781 reasoned its way to the actions:
-It covered its body and all but two of its 8 extremities with a blanket.
-The two extremities were fitted with sleeves from a jacket left by a boyfriend
-of the mother and stuffed with toilet paper.
-It found a program for simulating a female voice and adapted it to meet
-the phonetic and prosodic specifications of what the linguists call motherese.
-It made a face for itself in imitation of a Barbie doll.
+R781从网络了解到一个在光秃秃的笼子里将死的小猴子是如何因一块类似母猴触感的柔软表面而存活的。
+
+R781通过推理，做出如下举动：
+它用一块毯子遮住了自己的身体和八肢中的六个。剩下的两个则套上了那位妈妈男友留下的夹克衫的袖子，并用厕纸填充间隙。
+
+它找到了一个模拟女性声音的程序，并为让其符合语言学家对所谓母性定义的腔调。不仅如此，它还给自己按芭比娃娃的样子换了容貌。
+
 The immediate effects were moderately satisfactory. Picked up and cud-
 dled, the baby drank from its bottle. It repeated words taken from a list of
 children’s words in English.
+
 Eliza called from the couch in front of the TV, “Get me a ham sandwich
 and a coke.”
 “Yes, mistress.”
