@@ -91,24 +91,24 @@ R781通过推理，做出如下举动：
 
 它找到了一个模拟女性声音的程序，并为让其符合语言学家对所谓母性定义的腔调。不仅如此，它还给自己按芭比娃娃的样子换了容貌。
 
-The immediate effects were moderately satisfactory. Picked up and cud-
-dled, the baby drank from its bottle. It repeated words taken from a list of
-children’s words in English.
+令人惊讶的是，效果还不错！宝宝被机器人抱起来轻轻摇晃着，居然开始从瓶子里喝奶了。它不断的重复英语里的一串孩子气的用词。
 
-Eliza called from the couch in front of the TV, “Get me a ham sandwich
-and a coke.”
-“Yes, mistress.”
-“Why the hell are you in this stupid get up, and what’s happened to your
-voice.”
-“Mistress, you told me to love the baby. 机器人s can’t do that, but this
-get up caused him to take his bottle. If you don’t mind, I’ll keep doing what
-keeps him alive.”
-“Get the hell out of my apartment, stupid. I’ll make them send me
-another robot.”
-“Mistress, if I do that the baby will probably die.”
-Eliza jumped up and kicked R781. “Get the hell out, and you can take
-the fucking baby with you.”
-“Yes, mistress.”
+爱丽莎从电视机前的沙发上喊道，“给我拿一个猪肉三明治和一瓶可乐。”
+
+“是的，主人。”
+
+“我的妈呀，你怎么打扮成这个鬼样，还有你声音怎么了？”
+
+“主人，您叫我去爱那个孩子。机器人没法爱，但我这么做让他愿意进食。如果您不介意，我将继续做任何让他活着的事。”
+
+“滚出我的公寓，傻逼。我要让他们送我另一个机器人。”
+
+“主人，如果我那么做宝宝可能会死掉的。”
+
+爱丽莎跳起来踹了R781几脚，“滚出去！带着你那该死的宝宝。”
+
+“是的，主人。”
+
 R781 came out onto a typical late 21st century American city street.
 The long era of peace, increased safety standards, and the availability of
 construction robots had led to putting automotive traffic and parking on
