@@ -109,13 +109,7 @@ R781通过推理，做出如下举动：
 
 “是的，主人。”
 
-R781 came out onto a typical late 21st century American city street.
-The long era of peace, increased safety standards, and the availability of
-construction robots had led to putting automotive traffic and parking on
-a lower level completely separated from pedestrians. Tremont Street had recently been converted, and crews were still transplanting trees. The streets
-became more attractive and more people spent time on them and on the
-syntho-plush arm chairs and benches, cleaned twice a day by robots. The
-weather was good, so the plastic street roofs were retracted.
+R781来到了典型的21世纪末期的美国街头，长期的和平、提高了的安全标准以及制造业机器化的低成本已经导致自动化交通和停车细节从行人那里完全分开。特莱蒙特大街刚刚转型，有一些员工还在移植树。街道比以往更加诱人，更多的人在这里花时间，或者坐在syntho-plush（待翻）材质的扶手椅和长凳上，它们每天由机器人打扫两次。天气非常好，所以塑料做的街道屋顶（待翻）被retracted（待翻）。
 Children from three years up were playing on the street, protected by the
 computer surveillance system and prevented by barriers from descending to
 the automotive level. Bullying and teasing of younger and weaker children
@@ -127,10 +121,11 @@ would hear, “Thank you Ms. Jones. That was $152.31 charged to your
 Bank of America account.” The few customers whose principles made them
 refuse identification would be recognized as such and receive remote human
 attention, not necessarily instantly.
-People on the street quickly noticed R781 carrying 泰维斯 and were star-
-tled. 机器人s were programmed to have nothing to do with babies, and R781’s
-abnormal appearance was disturbing.
-“That really weird robot has kidnapped a baby. Call the police.”
+
+街上的人们很快注意到R781带着泰维斯并被startled（待翻）。机器人被编程不对宝宝做任何事，而且R781的反常外表很恶心。
+
+“那个非常奇怪的机器人绑架了一个婴儿。报警。”
+
 When the police came they called for reinforcements.
 “I think I can disable the robot without harming the baby”, said Officer
 Annie Oakes, the Department’s best sharpshooter.
@@ -141,11 +136,11 @@ in one swipe”, said a sergeant.
 The captain added, “机器人, give me that baby”.
 “No, Sir” said R781 to the police captain. “I’m not allowed to let an
 unauthorized person touch the baby.”
-“I’m from Child Welfare”, said a new arrival.
+“我来自儿童福利局。”一个刚到的人说。
 “Sir, I’m specifically forbidden to have contact with Child Welfare”, said
 R761 to Captain Farrel.
 “Who forbade that?”, said the Child Welfare person.
-The robot was silent.
+机器人沉默了。
 A cop asked, “Who forbade it?”
 “Ma’am, Are you from Child Welfare?”
 “No, I’m not. Can’t you see I’m a cop?”
@@ -178,19 +173,19 @@ not malfunctioned, but is carrying out its standard program under unusual
 circumstances.”
 “Then why does it have its limbs covered, why does it have the Barbie
 head, and why does it have that strange voice?”
-“Ask it.”
-“机器人, answer the question.”
+“问问它。”
+“机器人, 回答问题。”
 “Female police officers and gentlemen, Mistress told me, ‘Love the fucking
 baby, yourself.‘ “
 The captain was familiar enough with robot programming to be surprised.
 “What? Do you love the baby?”
 “No, sir. 机器人s are not programmed to love. I am simulating loving the
 baby.”
-“Why?”
+“为什么？”
 “Sir, otherwise this baby will die. This costume is the best I could make
 to overcome the repulsion robots are designed to excite in human babies and
 children.”
-“Do you think for one minute, a baby would be fooled by that?”
+“你有没有花时间想过，一个宝宝会被这样愚弄？”
 “Sir, the baby drank its bottle, went to sleep, and its physiological signs
 are not as bad as they were.”
 “OK, give me the baby, and we’ll take care of it”, said Officer Oakes,
@@ -207,10 +202,9 @@ Ever since the late 20th century, the standards of personal privacy had risen,
 and an officialdom charged with enforcing the standards had arisen.
 “You can’t violate the woman’s privacy by taking unauthorized informa-
 tion from the robot’s download.”
-“What can we do then?”
+“那我们现在怎么办？”
 “You can file a request to use private information. It will be adjudicated.”
-“Oh, shit. In the meantime what about the baby?”, said Officer Oakes,
-who didn’t mind displaying her distaste for bureaucrats.
+“哦, 该死。这个宝宝在那期间怎么办？”，不介意把她对官僚主义者的厌恶展示的奥克斯长官说。
 “That’s not my affair. I’m here to make sure the privacy laws are obeyed”,
 said the privacy official who didn’t mind displaying his contempt for cops.
 During this discussion a crowd, almost entirely virtual, accumulated. The
