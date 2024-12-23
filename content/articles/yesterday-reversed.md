@@ -1,7 +1,7 @@
 Title: 昨天gnome大崩溃原因部分找到
 Date: 2024-12-10
 Category: 技术
-Tags: common-lisp guix bug 环境变量 lisp
+Tags: common-lisp,guix,bug,环境变量,lisp
 
 ###后续
 
@@ -45,7 +45,7 @@ Tags: common-lisp guix bug 环境变量 lisp
 
 1. 不用gnome————这个不可能，至少目前我没工夫去折腾。
 2. 不用sbcl————也不可能，如果希望最后能得到机器码的话。
-3. 用portable-IDE————可以，但我电脑上已经有了emacs，slime和quicklisp，只为了sbcl下移动环境得不偿失。
+3. 用portacle-IDE————可以，但我电脑上已经有了emacs，slime和quicklisp，只为了sbcl下移动环境得不偿失。
 
 最后一提，我在guix的issue tracker上看到一模一样的问题了，序号是45360，2020年的，到现在都没解决。
 
