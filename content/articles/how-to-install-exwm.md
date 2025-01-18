@@ -1,5 +1,5 @@
 Title: 如何用EXWM替换Gnome
-Date: 2024-01-18
+Date: 2025-01-18
 Category: 技术
 Tags: 中等,emacs,exwm,桌面
 
