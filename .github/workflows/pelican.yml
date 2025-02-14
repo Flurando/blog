@@ -12,6 +12,6 @@ jobs:
       id-token: "write"
     with:
       settings: "publishconf.py"
-      theme: "https://github.com/seanh/sidecar.git"
-      requirements: "pelican[feed,markdown]"
+      theme: "https://github.com/Pelican-Elegant/elegant.git"
+      requirements: "pelican[markdown],feedgenerator,jinja2,pygments,docutils,blinker,unidecode,MarkupSafe,python-dateutil"
       python: "3.12"
