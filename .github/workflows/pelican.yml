@@ -12,6 +12,6 @@ jobs:
       id-token: "write"
     with:
       settings: "publishconf.py"
-      theme: "https://github.com/Pelican-Elegant/elegant.git"
+      theme: "https://github.com/getpelican-themes/bootstrap2-dark.git"
       requirements: "pelican[markdown]"
       python: "3.12"
