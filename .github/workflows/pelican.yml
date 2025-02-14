@@ -13,5 +13,5 @@ jobs:
     with:
       settings: "publishconf.py"
       theme: "https://github.com/seanh/sidecar.git"
-      requirements: "pelican[markdown]"
+      requirements: "pelican[feed,markdown]"
       python: "3.12"
