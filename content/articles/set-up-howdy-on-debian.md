@@ -35,11 +35,13 @@ Tags: 中等,emacs,Howdy,桌面,Gnome,人脸识别,命令行,terminal,终端,con
 1. 将github上的仓库克隆到本地，目前默认是beta分支，别改。
    运行`git clone https://github.com/boltgolt/howdy.git`得到howdy文件夹。什么？你没有git这个命令？先用`sudo apt install git wget curl`安装吧，顺便弄上wget和curl两个下载工具，以免等下又缺斤少两的。   
 2. 安装需要的依赖。
+
 	sudo apt-get update && sudo apt-get install -y \
    	python3 python3-pip python3-setuptools python3-wheel \
    	cmake make build-essential \
    	libpam0g-dev libinih-dev libevdev-dev python3-opencv \
-   	python3-dev libopencv-dev meson`
+   	python3-dev libopencv-dev meson
+
    这里要注意，目前Debian Bookworm的meson包是以ninja-build为依赖的，所以不用特别安装，你害怕打上ninja-build也行。github主页上的INIReader就是那个libinih-dev，libevdev就是后面那个不用我多说了吧。
    注意，你要是现在尝试就会发现它就是少一个dlib模块没有，当然了要是想用howdy-gtk可能会遇到elevate之类的也缺，哈哈。我已经放弃elevate了，也就是不用howdy-gtk，那个现在bookworm里根本没有可能会弄坏系统吧————反正也不是要紧功能，算了，这种自己重启用sudo的其实可以去掉，记得`sudo howdy-gtk`之类的就行了嘛（目前已经没有gksudo之类的包了，好像使用一些默认配置让你在sudo图形程序时自动的进入根用户的环境，总之安全），但我懒得碰，主要是不会meson，到时候手动删除肯定很麻烦。
    那么，这个dlib从哪里弄呢，参考[这里](https://github.com/boltgolt/howdy/pull/814)。
@@ -49,9 +51,11 @@ Tags: 中等,emacs,Howdy,桌面,Gnome,人脸识别,命令行,terminal,终端,con
 3. 按要求编译安装
    首先我们要进入刚才`git clone`的文件夹，直接`cd howdy`。
    接着，一条条输入github主页指导
+   
 	meson setup build
    	meson compile -C build
    	meson install -C build
+
    用没有报错？没有的话，恭喜你，我们还剩最后几步。
 4. 下载dlib所需额外数据
    通过`cd /usr/local/share/dlib-data/`进入相关文件夹
@@ -75,6 +79,7 @@ Tags: 中等,emacs,Howdy,桌面,Gnome,人脸识别,命令行,terminal,终端,con
    不过我也是发现了解决办法，不算解决，算是workaround吧。
    就是我们不要动那个/etc/pam.d/文件夹，我们在/usr/share/pam-configs/文件夹里新建一个howdy文件，纯文本。（这里更好的选择是放在/usr/local/share/pam-configs/下面，但那样还要调pam-auth-update，更麻烦）
    假设你已经在那个/usr/share/pam-configs/文件夹里，不在的话用`cd /usr/share/pam-configs`进，输入下面的命令来生成文件，这里我写了个简单的， 当然你可以自己改，具体我不大懂，照着旁边unix文件写的。
+   
        cat > howdy << EOF
        Name: Howdy the face recognization for Linux just like Hello in Windows
        Default: yes
@@ -83,13 +88,17 @@ Tags: 中等,emacs,Howdy,桌面,Gnome,人脸识别,命令行,terminal,终端,con
        Auth:
 		sufficient   /usr/local/lib/x86_64-linux-gnu/security/pam_howdy.so
        EOF
+
    这里有一点要注意，这个到pam_howdy.so的路径你那里可能和我不一样，具体看当时`meson install -C build`的输出把pam_howdy.so下到哪里去了，或者在/usr/local/lib/里找一找有没有类似的，看看。
    生成好后，运行`sudo pam-auth-update`，应该是个tui界面，你按一下Tab键再回车就可以。
 7. 亲身尝试   
-   现在可以试试，另开一个终端sudo个什么东西，或者注销重进。   
-   我配置好后的效果是，它先让我输密码，不论输入什么都会开启人脸识别。识别成功直接通过，不成功才会检查密码对不对。不过呢，注销后或者刚开机，gdm会强制要求给它正确密码，否则不允许登录，即使人脸识别通过————这可以开启自动登录来绕开，但是怎么说呢，你终归得输入一次密码，因为howdy只是负责认证，我知道你是谁而已，你的密码不给电脑，密钥串什么的都解不开。虽然密钥串在部分高端配置下并不是好的选择，但首次登录输入密码又不费事，何乐而不为呢？更何况，只是刚开机和注销后不能用，锁定屏幕后的解锁还是可以的。
-   关键是，由于有了输入密码这一步，我们可以在gdm登录页面选择桌面环境。每次开机不乱注销的话只需要输入一次用户密码，可以说足够方便了！
-   你也是这样吗？是的话恭喜你，配置成功。目前我们只要在第一次要密码时输入，后续都可以随便回车让它人脸识别啦！
+   现在可以试试，另开一个终端sudo个什么东西，或者注销重进。
+
+我配置好后的效果是，它先让我输密码，不论输入什么都会开启人脸识别。识别成功直接通过，不成功才会检查密码对不对。不过呢，注销后或者刚开机，gdm会强制要求给它正确密码，否则不允许登录，即使人脸识别通过————这可以开启自动登录来绕开，但是怎么说呢，你终归得输入一次密码，因为howdy只是负责认证，我知道你是谁而已，你的密码不给电脑，密钥串什么的都解不开。虽然密钥串在部分高端配置下并不是好的选择，但首次登录输入密码又不费事，何乐而不为呢？更何况，只是刚开机和注销后不能用，锁定屏幕后的解锁还是可以的。
+
+关键是，由于有了输入密码这一步，我们可以在gdm登录页面选择桌面环境。每次开机不乱注销的话只需要输入一次用户密码，可以说足够方便了！
+
+你也是这样吗？是的话恭喜你，配置成功。目前我们只要在第一次要密码时输入，后续都可以随便回车让它人脸识别啦！
 
 ### 感想
 
