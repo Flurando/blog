@@ -1,4 +1,4 @@
-Title: 给用Debian电脑配置Howdy人脸识别
+Title: 给Debian电脑配置Howdy人脸识别
 Date: 2025-02-27
 Category: 技术
 Tags: 中等,emacs,Howdy,桌面,Gnome,人脸识别,命令行,terminal,终端,console,密码,debian
