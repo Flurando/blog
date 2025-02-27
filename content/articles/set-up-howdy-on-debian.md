@@ -44,10 +44,12 @@ Tags: 中等,emacs,Howdy,桌面,Gnome,人脸识别,命令行,terminal,终端,con
    到这里如果没有问题，我们就可以开始编译安装了。
 3. 按要求编译安装
    首先我们要进入刚才`git clone`的文件夹，直接`cd howdy`。
-   接着，一条条输入github主页指导   
+   接着，一条条输入github主页指导
+   
 	meson setup build
    	meson compile -C build
    	meson install -C build
+   
    用没有报错？没有的话，恭喜你，我们还剩最后几步。
 4. 下载dlib所需额外数据
    通过`cd /usr/local/share/dlib-data/`进入相关文件夹
@@ -70,7 +72,8 @@ Tags: 中等,emacs,Howdy,桌面,Gnome,人脸识别,命令行,terminal,终端,con
    最大的问题在于，即便我们忽略gdm开机吊死在人脸识别的尝试这棵树的情况，无法在gdm原本请求密码时选择桌面环境也是很要命的事情，不是不能选，而是刚出来你就认证成功进桌面了。不像原本问密码，认证模块加载时会等你输入，howdy目前加载并不会让gdm开放选项，等它认证结束选项才出来！来不及！你看，本来挺方便的桌面切换变成只能手动改/var/lib/AccountsService/users/<你的用户名>了。
    不过我也是发现了解决办法，不算解决，算是workaround吧。
    就是我们不要动那个/etc/pam.d/文件夹，我们在/usr/share/pam-configs/文件夹里新建一个howdy文件，纯文本。（这里更好的选择是放在/usr/local/share/pam-configs/下面，但那样还要调pam-auth-update，更麻烦）
-   假设你已经在那个/usr/share/pam-configs/文件夹里，不在的话用`cd /usr/share/pam-configs`进，输入下面的命令来生成文件，这里我写了个简单的， 当然你可以自己改，具体我不大懂，照着旁边unix文件写的。   
+   假设你已经在那个/usr/share/pam-configs/文件夹里，不在的话用`cd /usr/share/pam-configs`进，输入下面的命令来生成文件，这里我写了个简单的， 当然你可以自己改，具体我不大懂，照着旁边unix文件写的。
+   
        cat > howdy << EOF
        Name: Howdy the face recognization for Linux just like Hello in Windows
        Default: yes
@@ -79,6 +82,7 @@ Tags: 中等,emacs,Howdy,桌面,Gnome,人脸识别,命令行,terminal,终端,con
        Auth:
 		sufficient   /usr/local/lib/x86_64-linux-gnu/security/pam_howdy.so
        EOF
+   
    这里有一点要注意，这个到pam_howdy.so的路径你那里可能和我不一样，具体看当时`meson install -C build`的输出把pam_howdy.so下到哪里去了，或者在/usr/local/lib/里找一找有没有类似的，看看。
    生成好后，运行`sudo pam-auth-update`，应该是个tui界面，你按一下Tab键再回车就可以。
 7. 亲身尝试   
