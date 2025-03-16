@@ -1,8 +1,8 @@
 AUTHOR = 'Flurando'
-SITENAME = 'My Blog(CN)'
+SITENAME = '我的博客'
 PATH = 'content'
 DEFAULT_LANG = 'zh_CN'
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Static paths
 STATIC_PATHS = ['images', 'extra']
