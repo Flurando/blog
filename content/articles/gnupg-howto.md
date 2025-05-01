@@ -144,6 +144,12 @@ Tags: 软件,加密,签名,信任
    
     注意，请确保环境安全私密，不要在后台运行任何闭源且带有“过滤”“杀毒”等功能的专有程序，确保没有键盘记录器、监控录像设备开启
 	
+	这里的原则是，除了你自己不要信任任何人。
+	
+	因为PGP身份的重要性不是你随手注册的网站申请的邮箱可以比拟的，它就是网上的你。不要用它类比身份证或银行卡，PGP比它们都更需要重视，因为一旦失窃你没有任何警察局或当地银行可以请求帮助，你能依靠的只有自己。
+	
+	Hold Your Life, in Your Own Hand.
+	
 2. 一个至少8GB的空U盘
 
 	U盘不是空的也没关系，但所有内容都会在安装tails之后丢失，请自行备份
@@ -222,58 +228,58 @@ Tags: 软件,加密,签名,信任
 	
 	大概这样
 	
-	```
-	Please select what kind of key you want:
-	(1) RSA and RSA
-	(2) DSA and Elgamal
-	(3) DSA (sign only)
-	(4) RSA (sign only)
-	(7) DSA (set your own capabilities)
-	(8) RSA (set your own capabilities)
-	(9) ECC (sign and encrypt)
-	(10) ECC (sign only)
-	(11) ECC (set your own capabilities)
-	(13) Existing key
-	(14) Existing key from card
-	Your selection? 9
-	Please select which elliptic curve you want:
-	(1) Curve 25519
-	(2) Curve 448
-	(3) NIST P-256
-	(4) NIST P-384
-	(5) NIST P-521
-	(6) Brainpool P-256
-	(7) Brainpool P-384
-	(8) Brainpool P-512
-	(9) secp256k1
-	Your selection? 1
-	Please specify how long the key should be valid.
-	0 = key does not expire
-	<n>  = key expires in n days
-	<n>w = key expires in n weeks
-	<n>m = key expires in n months
-	<n>y = key expires in n years
-	Key is valid for? (0) 0
-	Key does not expire at all
-	Is this correct? (y/N) y
-
-	GnuPG needs to construct a user ID to identify your key.
-
-	Real name: 小明
-	Email address: 1234567@qq.com
-	Comment: 王小明
-	You are using the 'utf-8' character set.
-	You selected this USER-ID:
-	"小明 (王小明) <1234567@qq.com>"
-
-	Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? 
-	```
+		```
+		Please select what kind of key you want:
+		(1) RSA and RSA
+		(2) DSA and Elgamal
+		(3) DSA (sign only)
+		(4) RSA (sign only)
+		(7) DSA (set your own capabilities)
+		(8) RSA (set your own capabilities)
+		(9) ECC (sign and encrypt)
+		(10) ECC (sign only)
+		(11) ECC (set your own capabilities)
+		(13) Existing key
+		(14) Existing key from card
+		Your selection? 9
+		Please select which elliptic curve you want:
+		(1) Curve 25519
+		(2) Curve 448
+		(3) NIST P-256
+		(4) NIST P-384
+		(5) NIST P-521
+		(6) Brainpool P-256
+		(7) Brainpool P-384
+		(8) Brainpool P-512
+		(9) secp256k1
+		Your selection? 1
+		Please specify how long the key should be valid.
+		0 = key does not expire
+		<n>  = key expires in n days
+		<n>w = key expires in n weeks
+		<n>m = key expires in n months
+		<n>y = key expires in n years
+		Key is valid for? (0) 0
+		Key does not expire at all
+		Is this correct? (y/N) y
 	
+		GnuPG needs to construct a user ID to identify your key.
+	
+		Real name: 小明
+		Email address: 1234567@qq.com
+		Comment: 王小明
+		You are using the 'utf-8' character set.
+		You selected this USER-ID:
+		"小明 (王小明) <1234567@qq.com>"
+	
+		Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? 
+		```
+		
 	最后一行的意思是输入N回车重新写Real Name真实姓名，C重新写Comment备注，E重新写Email address邮箱地址，O确认正确生成凭证，Q回车取消操作退出。
 	
 	确认无误我们就可以输入O回车，很快命令运行完成。
 	
-	中途它会要你设定password密码，请设定一个强密码，我建议使用diceware生成一个passphrase口令然后记住它，而不是说“我在生日后随便输了5个字符，没有人可以攻破它”之类的傻话
+	中途它会要你设定password密码，请设定一个强密码，我建议使用[diceware方法](https://zh.wikipedia.org/wiki/Diceware "diceware")生成一个passphrase口令然后记住它，而不是说“我在生日后随便输了5个字符，没有人可以攻破它”之类的傻话
 	
 	由于这个密码是别人拿到你的凭证后能保护你身份的唯一屏障，请把它当作银行卡密码对待，没有二重认证（就是给你发短信问验证码或浏览器人脸识别）的那种！
 	
@@ -373,5 +379,133 @@ Tags: 软件,加密,签名,信任
 	
 	注意我们可能得给这个ramfs开一个稍大一些的空间，按Alex的size=1m目前可能够，但未来不一定，万一你哪天电脑上这个钥匙对坏了要重新导入整个而且你凭证上一堆签名加多个子钥匙是吧？
 	
+	打开一个终端运行
 	
-    
+		```bash
+		mkdir /tmp/gpg
+		sudo mount -t ramfs -o size=1M ramfs /tmp/gpg
+		sudo chown $(logname):$(logname) /tmp/gpg
+		```
+	
+	运行完就可以关闭这个终端，一面后面弄混
+	
+	好的，抄完Alex的作业，我们下面步骤会略有不同
+	
+	值得注意的是，在后续步骤中，你可能需要用gpg2代替gpg
+	
+	只有gpg没有gpg2的朋友可以通过`gpg --version`查看，如果版本是2.x.y那么就是正确的。
+	
+	我们开始
+	
+	首先，打开文件应用，找到/tmp/gpg文件夹和keys.tar.gpg
+	
+	然后，把keys.tar.gpg移动到/tmp/gpg文件夹里
+	
+	现在右键这个文件夹空白处打开打开终端，输入`gpg --decrypt keys.tar.gpg | tar -x`回车，在对话框输入刚才说好只用一次的密码就可以
+	
+	好了，你应该能在/tmp/gpg文件夹下找到刚才那三个钥匙文件
+	
+	注意，克制自己再检查一遍的冲动，不要打开它们，不要去点它们，更不要想着把内容抄在纸上！要备份就再买一个8GB的U盘做tail备份！
+	
+	接下来我们要导入这三个钥匙文件到电脑的gpg配置中去
+	
+	输入`gpg --import <子密钥1的私钥完整文件名> <子密钥2的私钥完整文件名> <主公钥完整文件名>`回车
+	
+	在导入成功后，我们将这个钥匙对设置为无条件信任，因为这是我们自己的钥匙，总没有人连自己都怀疑吧，哈哈。
+	
+	输入`gpg --edit-key 1234567@qq.com`回车，然后输入`trust`回车，看看哪个数字对应的行有ultimate trust或者中文的类似等价选上回车就可以
+	
+	选择后输入`y`回车表示同意
+	
+	示例
+	
+		```
+		Please decide how far you trust this user to correctly verify other users' keys
+		(by looking at passports, checking fingerprints from different sources, etc.)
+	
+		1 = I don't know or won't say
+		2 = I do NOT trust
+		3 = I trust marginally
+		4 = I trust fully
+		5 = I trust ultimately
+		m = back to the main menu
+
+		Your decision? 5
+		Do you really want to set this key to ultimate trust? (y/N) y
+		```
+
+	然后输入`save`回车完成。
+	
+6. 上传公钥到公开的服务器
+
+	现在我们要把公钥上传到keys.openpgp.org
+	
+	在终端输入`gpg --export 1234567@qq.com | curl -T - https://keys.openpgp.org`回车
+	
+	用浏览器打开它返回的验证链接。
+	
+	然后在你邮箱里点击它发送的另一个验证链接。
+	
+	完成后别人就可以通过邮箱地址搜索或下载你的公钥了。
+	
+	你可以把自己公钥的指纹尽可能的告知天下，以免别人下到冒充者的公钥却以为是你。
+	
+	这个指纹可以认为对每个凭证而言是独一无二的，你可以理解成身份证号码，不包含个人信息的那种。
+	
+	怎么查看指纹呢？
+	
+	输入`gpg --fingerprint 1234567@qq.com`回车
+	
+	你可能会看到这样的输出
+	
+		```
+		pub   ed25519 2025-04-29 [SC]
+		      EB85 BB5F A33A 75E1 5E94 4E63 F231 550C 4F47 E38E
+		uid           [ultimate] 小明 (王小明) <1234567@qq.com>
+		sub   cv25519 2025-04-29 [E]
+		sub   ed25519 2025-04-29 [S]
+		```
+		
+	看见第二行四个四个一组的东西没有
+	
+	在这个例子中，小明的指纹就是EB85 BB5F A33A 75E1 5E94 4E63 F231 550C 4F47 E38E
+	
+	你不输入空格也行，只是这样方便他人用肉眼或者屏幕阅读器来比对嘛。
+	
+	你的指纹肯定不是这个，自己大致类比着去找一下吧。
+	
+到这里，六步，我们已经配置好可以日常使用的PGP密钥了。
+
+但有些注意事项还是要提一下。
+
+#### 注意
+现在，电脑上的钥匙对是没有最重要的私钥的
+
+所以你想吊销凭证之类的操作只能进tail，改好之后再走一遍导出步骤
+
+但是呢，一般你不用每次都完整导出，你可以只导出修改后的主公钥
+
+gpg在import导入时会自动合并属于同一个钥匙对的内容
+
+签名之类的由于要使用你的主私钥，所以也是需要进tail的
+
+不过这种事很少发生，即便你就是社牛天天给人认证跑各种会议交换凭证
+
+也可以集中找一个时间签名。
+
+鉴于篇幅原因，和我本身没有经历，就不展开说了。
+
+有个bug得小心，虽然没有私钥也可以修改照片，但你不要这么做，会弄坏你的凭证，结果是只能手动重新完整导入。
+
+### 后记
+总体来说，确实不方便
+
+但你懂的，自立根生就是这样。
+
+这篇文章只是帮助你弄一个2025年的gnupg完美配置（这里说的完美，不是最安全，只是你手头只有U盘和电脑的个人认为的最佳实践。目前最安全就是硬件密码，也就是密码狗之类的！）
+
+没有包含如何使用，比如日常的签名，加密，他人公钥的管理等等。
+
+我写这些的目的，就是因为相关资源太少，英文都只有大体相同的寥寥几篇，更别说简中圈了。
+
+希望能帮助到你，陌生人:)
